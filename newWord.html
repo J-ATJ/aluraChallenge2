@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/newWord.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Ahorcado - Agregar nueva palabra</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Challenge 2 - Agrega una palabra</h1>
+        </div>
+    </header>
+    <main>
+        <div>
+            <a href="https://www.aluracursos.com/" target="_blank"><img id="logoAlura" src="images/logoAlura.png" alt="logoAlura"></a>
+        </div>
+        <form id="idForm">
+            <div id="divInputText">
+                <textarea name="inputText" id="idTextArea" maxlength="8" placeholder="Ingresa una nueva palabra"></textarea>
+            </div>
+        </form>
+        <div id="divMessage">
+            <img src="images/exclamacion.png" alt="exclamation" id="idExclamation"><span id="message"> Máximo 8 letras y sin números</span>
+        </div>
+        <div id="divButtons">
+            <button id="save">Guardar y Empezar</button>
+            <a href="index.html"><button id="cancel">Cancelar</button></a>                 
+        </div>
+    </main>
+    <footer>
+        <p id="datos">Creador: <a id="gitHub" href="https://github.com/J-ATJ" target="_blank">J-ATJ</a></p>
+    </footer>
+    <script src="js/words.js"></script>
+    <script src="js/newWord.js"></script>
+</body>
+</html>

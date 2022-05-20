@@ -1,0 +1,76 @@
+#divInputText{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+#idTextArea{
+    color: #0a3871;
+    background-color: transparent;
+    width: 600px;
+    height: 50px;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 200;
+    border: none;
+    resize: none; 
+    outline: none;
+}::-webkit-input-placeholder { 
+    color: #0a3871;
+}
+#divMessage{    
+    display: flex;
+    justify-content: center;  
+    margin-top: 270px;
+}
+#idExclamation{
+    width: 14px;
+    height: 14px;
+    vertical-align: text-top;
+    margin-right: 4px;
+}
+#message{
+    width:576px;
+    font-size: 15px;
+    color: #4c4e50;
+}
+#divButtons{
+    display: flex;
+    justify-content: center; 
+    margin-top: 8px;   
+}
+#save{
+    border: solid 1px;
+    color: #F3F5FC;
+    background-color: #0A3871;
+    border-radius: 15px;
+    width: 295px;
+    height: 60px;
+    margin-right: 10px;
+    font-family: "Inter";
+    font-size: 16px;
+    cursor: pointer;
+}#save:hover{
+    border: solid 1px;
+    border-color: #F3F5FC;
+    background-color: #0A387190;
+    width: 297px;
+    height: 62px;;
+}
+#cancel{
+    border: solid 1px;
+    color: #0A3871;
+    border-color: #0A3871;
+    background-color: #F3F5FC;
+    border-radius: 15px;
+    width: 295px;
+    height: 60px;
+    font-family: "Inter";
+    font-size: 16px;
+    cursor: pointer;
+}#cancel:hover{
+    border: solid 1px;
+    border-color: #F3F5FC;
+    background-color: #0A387130;
+    width: 297px;
+    height: 62px;;
+}
